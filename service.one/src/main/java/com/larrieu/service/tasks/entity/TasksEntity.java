@@ -14,7 +14,7 @@ public class TasksEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    private String email;
     private String title;
     private LocalDateTime dueDate;
     private boolean notified;
